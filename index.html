@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>F1 2024 Driver lineup</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script defer type="module" src="/index.js"></script>
+</head>
+
+<body class = "body">
+  <header class = "topnav">
+    <h1>F1 2024 Driver Lineup</h1>
+    <h3>Filter by team:</h3>
+  </header>
+  <div>
+    <select id="mySelect">
+    <option value="all">Select Any Team</option>
+    <option value="Oracle Red Bull Racing">Red Bull Racing Honda RBPT</option>
+    <option value="Mercedes-AMG Petronas F1 Team">Mercedes</option>
+    <option value="Scuderia Ferrari">Ferrari</option>
+    <option value="McLaren Formula 1 Team">McLaren Mercedes</option>
+    <option value="Aston Martin Aramco F1 Team">Aston Martin Aramco Mercedes</option>
+    <option value="Visa Cash App RB F1 Team">RB Honda RBPT</option>
+    <option value="Moneygram Haas F1 Team">Haas Ferrari</option>
+    <option value="Williams Racing">Williams Mercedes</option>
+    <option value="Stake F1 Team Kick Sauber">Kick Sauber Ferrari</option>
+    <option value="BWT ALpine F1 Team">Alpine Renault</option>
+  </select>
+</div>
+  <div id="driver-display">
+
+  </div>
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class = "modal-stats">
+
+      </div>
+      <div class = "team">
+        <h3>Team: </h3>
+      </div>
+      <div class = "dob">
+        <h3>Date of Birth: </h3>
+      </div>
+      <div class = "nationality">
+        <h3>Country of Origin: </h3>
+      </div>
+      <div class = "champs">
+        <h3>Championships: </h3>
+      </div>
+      <div class = "wins">
+        <h3>Wins: </h3>
+      </div>
+      <div class = "poles">
+        <h3>Poles: </h3>
+      </div>
+      <div class = "podiums">
+        <h3>Podiums: </h3>
+      </div>
+      <div class = "comment section">
+        <form id="newComment">
+          <h4>Add comment</h4>
+          <input id= "userInput" type= "text">
+          <br>
+          <br>
+          <input type="submit" value = "send" />
+        </form>
+        <h3>Comments:</h3>
+        <p id='commentDisplay'>
+          
+        </p>
+
+      </div>
+
+
+
+
+
+
+    </div>
+  
+  </div>
+  
+
+  </p>
+</body>
+<footer>
+<div class = "footer">
+<h3>Subscribe to our newsletter!</h3>
+<p>receive exciting motorsport news, updates, and special offers straight to your inbox</p>
+</div>
+
+
+</footer>
+
