@@ -4,8 +4,10 @@
     color: #f2f2f2;
   }
 
-  .body {
-    background-color: #f0ecec;
+body {
+    background-image: url("back.jpg");
+    background-color: #f2f2f2;
+    background-size: 100%;
 
 }
 .footer {
@@ -13,12 +15,14 @@
     color: #f2f2f2;
 }
 
+
 #driver-display {
     margin: 1rem 0;
     max-width: calc(100vw - 2rem);
-    background-color: #fefefe;
+    background-color: #d3cfcf4f;
     background-size: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color :#f2f2f2;
   }
   
   #driver-display img {
