@@ -1,18 +1,19 @@
 
 const choice = document.getElementById("mySelect")
 //console.log(choice.value);
-
+const chosen = choice.value
 function renderDrivers(driverObj) {
     
-    choice.addEventListener("change", chooser);
+    choice.addEventListener("change", chooser,)
+    let menuDiv = document.getElementById("driver-display")
+    let content = menuDiv.innerHTML
+        content = ""
 
     function chooser(selection) {
         selection = choice.value;
         //console.log(selection)
         //console.log(driverObj.team)
-        let menuDiv = document.getElementById("driver-display")
-        let content = menuDiv.innerHTML
-            content = ""
+
         if (selection == driverObj.team || selection == "all") {
             console.log(selection)
     
@@ -132,11 +133,11 @@ function renderDrivers(driverObj) {
   }
   
 }
-    /*    else if(selection!= driverObj.team) {
+        else if(selection == "clear") {
             const menuDiv = document.getElementById("driver-display")
-            menuDiv.innerHTML = "umm??";
+            menuDiv.innerHTML = "";
         }
-*/
+
 
     }
 
